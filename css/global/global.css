@@ -4,7 +4,7 @@ body {
   color: #111111;
   padding-bottom: 600px;
 }
-h1 ul p {
+h1, h2, h3, h4, ul, p {
   margin: 0px;
 }
 ul {
@@ -19,4 +19,7 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+img [src$=".jpg"]{ /*somente para as imagens em jpg*/
+  border-radius: 4px;
 }
