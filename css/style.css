@@ -2,14 +2,11 @@
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
 
-
 @import "./global/header.css";
 @import "./global/footer.css";
 
-
 /*utilidades*/
 @import "./utilidades/componentes.css";
-
 
 /*home*/
 @import "./home/introducao.css";
@@ -21,9 +18,13 @@
 @import "./bicicletas/bicicletas-listas.css";
 @import "./bicicletas/bicicletas.css";
 
-
+/*bicicleta*/
+@import "./bicicleta/bicicleta.css";
+ 
 /*seguros*/
 @import "./seguros/seguros.css";
+@import "./seguros/vantagens.css";
+@import "./seguros/perguntas.css";
 
 /*termos*/
 @import "./termos/termos.css";
